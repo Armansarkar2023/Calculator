@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator2</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+}
+
+.p1{
+    color: rgb(204, 204, 204);
+    position: absolute;
+    top: 145px;
+    left: 776px;
+    font-size: 14px;
+    font-weight: bolder;
+
+}
+.p2{
+    color: rgb(204, 204, 204);
+    position: absolute;
+    top: 137px;
+    left: 838px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.p3{
+    color: rgb(204, 204, 204);
+    position: absolute;
+    top: 161px;
+    left: 837px;
+    font-size: 8px;
+    font-weight: bold;
+}
+.p4{
+    color: rgb(204, 204, 204);
+    position: absolute;
+    top: 170px;
+    left: 768px;
+    font-size: 11px;
+    font-weight: bolder;
+}
+
+h2{
+    font-size: 23px;
+    position: relative;
+    top: 52px;
+    left: 16px;
+    color: rgb(204, 204, 204);
+    float: left;
+}
+#solar{
+    background-color: rgb(24, 22, 22);
+    width: 100px;
+    height: 35px;
+    position: relative;
+    top: 47px;
+    left: 160px;
+}
+.span-1{
+    border: 3px solid red;
+    background-color: red;
+    border-width: 3px;
+    font-size: 20px;
+    color:rgb(83, 83, 83);
+    font-weight: bold;
+}
+.calculator{
+    max-width: 400px;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+}
+.calculator-head{
+    width: 400px;
+    height: 100px;
+    border: 2px solid white;
+    border-radius: 8px; 
+    padding-top: 60px;
+    background-color: rgb(83, 83, 83);
+}
+.calculator-head .calculator-text{
+    width: 340px;
+    height: 70px;
+    background-color: rgb(85, 110, 85);
+    color: black;
+    font-size: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: right;
+    letter-spacing: 3px;
+}
+.calculator-body{
+    font-size: 0;
+}
+.calculator1{
+    border: 3px solid rgb(83, 83, 83);
+    background-color: rgb(83, 83, 83);
+    border-radius: 5px;
+    width: 397px;
+    height: 280px;
+
+}
+.button1{ 
+    width: 57px;
+    height: 28px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 0px;
+}
+.button1-autoreview{
+    height: 28px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-size: 13px;
+    margin-top: 5px;
+}
+.button1-correct{
+    height: 28px;
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.button2{
+    width: 66px;
+    height: 28px;
+    background-color:black;
+    color:white;
+    border-radius: 7px;
+    font-size: 17px;
+    margin-top: 4px;
+}
+
+
+.button3{
+    width: 66px;
+    height: 45px;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    margin-top: 5px;
+    font-size: 27px;
+}
+.button4{
+    width: 66px;
+    height: 45px;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    margin-top: 5px;
+    font-size: 27px;
+}
+.button5{
+    width: 66px;
+    height: 45px;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    position: relative;
+    top: 0px;
+    font-size: 27px;
+}
+.button-plus{
+    width: 66px;
+    height: 45px;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    margin-top: 5px;
+    font-size: 27px;
+}
+.button6{
+    width: 66px;
+    height: 45px;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    margin-top: 5px;
+    font-size: 27px;
+}
+.button-dot{
+    width: 66px;
+    height: 45px;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    margin-top: 5px;
+    font-size: 27px;
+}
+.button-equal{
+    width: 66px;
+    height: 45px;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    margin-top: 5px;
+    font-size: 27px;
+}
+.button-fild{
+    width: 66px;
+    height: 45px;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    margin-top: 5px;
+    font-size: 27px;
+}
+.fild{
+    background-color: rgb(83, 83, 83);
+    width: 402px;
+    height: 8px;
+    position: relative;
+    top: 240px;
+    left: 1px;
+    border-radius: 2px;
+}
+.calculator2{
+    max-width: 400px;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+}
+
+    </style>
+</head>
+<body>
+
+    <div class="calculator2">
+
+        <div class="fild"></div>
+
+         
+
+    </div>
+
+    <!--other text start here-->
+
+    <div class="other-text">
+
+        <p class="p1">MJ-120T</p> 
+        <p class="p2">12</p>
+        <p class="p3">DIGITS</p>
+        <p class="p4">TWO WAY POWER</p>
+
+    </div> 
+
+<!--other text end here-->
+
+
+    <!--calculator start here-->
+
+        <div class="calculator">
+
+           
+            <!--calculator head start here-->        
+
+            <h2>
+                CITIPLUS <span class="span-1">+</span>
+            </h2>   
+
+            <div id="solar"></div>
+
+
+            <div class="calculator-head">      
+
+
+                    <input type="text" name="calculator-screen" class="calculator-text" maxlength="12">
+                
+                    
+            </div>
+
+           
+
+    <!--calculator head end here-->
+    
+    <div class="calculator1">
+
+         <!--calculator-body start here-->
+
+         <div class="calculator-body--1st">
+
+            <!--1st row start here-->
+          
+            <div class="calculator-body">
+                <input type="button" id="button" value="TAX+" class="button1" style="background-color: rgb(34, 163, 83);">
+                <input type="button" id="button" value="TAX-" class="button1" style="background-color: rgb(34, 163, 83);">
+                <input type="button" id="button" value="AUTO REVIEW" class="button1-autoreview">
+                <input type="button" id="button" value="CORRECT" class="button1-correct">
+                <input type="button" id="button" value="🢁" class="button1">
+                <input type="button" id="button" value="🢃" class="button1">
+            </div>
+
+            <!--1st row end here-->
+
+            <!--2nd row start here-->
+
+            <div class="calculator-body">
+                <input type="button" id="button" value="RATE" class="button2">
+                <input type="button" id="button" value="OFF" class="button2">
+                <input type="button" id="button" value="+/-" class="button2">
+                <input type="button" id="button" value="√" class="button2">
+                <input type="button" id="button" value="MU" class="button2">
+                <input type="button" id="button" value="GT" class="button2">
+            </div>
+
+            <!--2nd row end here-->
+
+            <!--3rd row start here-->
+
+             <div class="calculator-body">
+                <input type="button" id="button" value="7" class="button3">
+                <input type="button" id="button" value="8" class="button3">
+                <input type="button" id="button" value="9" class="button3">
+                <input type="button" id="button" value="%" class="button3">
+                <input type="button" id="button" value="C" class="button3" style="background-color: rgb(207, 62, 86);">
+                <input type="button" id="button" value="AC" class="button3" style="background-color: rgb(207, 62, 86);">
+            </div>
+
+            <!--3rd row end here-->
+
+            <!--4th row start here-->
+
+            <div class="calculator-body">
+                <input type="button" id="button" value="4" class="button4">
+                <input type="button" id="button" value="5" class="button4">
+                <input type="button" id="button" value="6" class="button4">
+                <input type="button" id="button" value="x" class="button4">
+                <input type="button" id="button" value="÷" class="button4">
+                <input type="button" id="button" value="MRC" class="button4">
+            </div>
+
+            <!--4th row end here-->
+
+            <!--5th row start here-->
+
+            <div class="calculator-body">
+                <input type="button" id="button" value="1" class="button5">
+                <input type="button" id="button" value="2" class="button5">
+                <input type="button" id="button" value="3" class="button5">
+                <input type="button" id="button" value="+" class="button-plus">
+                <input type="button" id="button" value="-" class="button5">
+                <input type="button" id="button" value="M-" class="button5">
+            </div>
+
+            <!--5th row end here-->
+
+            <!--6th row start here-->
+
+            <div class="calculator-body">
+                <input type="button" id="button" value="0" class="button6">
+                <input type="button" id="button" value="00" class="button6">
+                <input type="button" id="button" value="." class="button-dot">
+                <input type="button" id="button" value="DEL" class="button-fild">
+                <input type="button" id="button" value="=" class="button-equal">
+                <input type="button" id="button" value="M+" class="button6">
+            </div>
+
+            <!--6th row end here-->
+
+        </div>
+    
+    <!--calculator-body end here-->
+
+    </div>
+    
+   
+
+        </div>
+
+    <!--calculator end here-->    
+
+</body>
+</html>
